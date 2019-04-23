@@ -13,6 +13,10 @@
 (2)第二个应用：自定义WebView来加载URL
 
  ![Image text](https://github.com/1045896802/Intent/blob/master/img/2y.png)
+ 
+ 3.参考文献
+ 
+ https://developer.android.google.cn/guide/components/intents-filters
 
 ## 二. 关键代码
 
