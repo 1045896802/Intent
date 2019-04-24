@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Intent</string>
+
+    <string name="button_toIntent">获取URL地址并启动隐式Intent的调用</string>
+    <string name="button_toWebView">自定义WebView来加载URL</string>
+
+    <string name="editText_address">http://www.baidu.com/</string>
+    <string name="button_toAddress">浏览该网页</string>
+
 </resources>

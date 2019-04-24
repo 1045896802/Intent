@@ -5,18 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".IntentActivity">
 
-
-    <Button
-        android:id="@+id/button_toIntent"
+    <EditText
+        android:id="@+id/editText_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_toIntent" />
+        android:text="@string/editText_address" />
 
     <Button
-        android:id="@+id/button_toWebView"
+        android:id="@+id/button_toAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_toWebView" />
+        android:text="@string/button_toAddress" />
 </LinearLayout>
