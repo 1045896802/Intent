@@ -1,10 +1,7 @@
 package com.example.intent;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.webkit.WebView;
@@ -38,7 +35,7 @@ public class WebViewActivity extends AppCompatActivity {
                             return true;
                         }
                     }*/);
-                    webView.loadUrl("http://www.baidu.com");
+                    webView.loadUrl(uri);
 
                 } else {
                     Toast.makeText(WebViewActivity.this, "uri地址不合法", Toast.LENGTH_SHORT).show();

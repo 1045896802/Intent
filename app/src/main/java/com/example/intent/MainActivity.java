@@ -14,19 +14,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button button_toIntent = (Button) this.<View>findViewById(R.id.button_toIntent);
-        button_toIntent.setOnClickListener(new View.OnClickListener(){
+        button_toIntent.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Intent i = new Intent(MainActivity.this ,IntentActivity.class);
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, IntentActivity.class);
                 startActivity(i);
             }
         });
 
         Button button_toWebView = (Button) this.<View>findViewById(R.id.button_toWebView);
-        button_toWebView.setOnClickListener(new View.OnClickListener(){
+        button_toWebView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Intent i = new Intent(MainActivity.this , WebViewActivity.class);
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, WebViewActivity.class);
                 startActivity(i);
             }
         });
